@@ -5,6 +5,8 @@ const DynamicComponentWithNoSSR = dynamic(
   { ssr: false }
 );
 
-export default function Home() {
+const Home = () => {
   return <DynamicComponentWithNoSSR />;
-}
+};
+
+export default Home;
